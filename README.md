@@ -78,7 +78,7 @@ Follow these steps to set up the project locally:
 
 Here’s a glimpse of how the application looks and works:
 
-![](https://imgur.com/a/WHcP11k)
+! [](https://imgur.com/a/WHcP11k)
 
 ---
 
