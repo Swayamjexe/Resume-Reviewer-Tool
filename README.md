@@ -2,6 +2,8 @@
 
 A web-based application to review resumes, compare them with job descriptions, and provide insightful feedback using HuggingFace models. This tool empowers job seekers by summarizing their resumes, analyzing pros and cons, suggesting skill improvements, and generating a match percentage with the desired job role.
 
+---
+
 ## Features ✨
 - **Summarize Your Resume**: Provides a concise overview of your resume and highlights its strengths and weaknesses.
 - **Personalized Skill Advice**: Identifies skills missing for the job role and offers actionable suggestions for improvement.
@@ -35,29 +37,29 @@ A web-based application to review resumes, compare them with job descriptions, a
 Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/resume-review-tool.git
-    cd resume-review-tool
-    ```
+   ```bash
+   git clone https://github.com/yourusername/resume-review-tool.git
+   cd resume-review-tool
+   ```
 
 2. **Set Up Environment Variables**:
-    - Create a `.env` file and add your HuggingFace API token:
-      ```
-      HF_TOKEN=your_huggingface_token
-      ```
+   - Create a `.env` file and add your HuggingFace API token:
+     ```
+     HF_TOKEN=your_huggingface_token
+     ```
 
 3. **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **Run the Application**:
-    ```bash
-    streamlit run app.py
-    ```
+   ```bash
+   streamlit run app.py
+   ```
 
 5. **Access the Tool**:
-    Open `http://localhost:8501` in your browser.
+   Open `http://localhost:8501` in your browser.
 
 ---
 
@@ -72,15 +74,27 @@ Follow these steps to set up the project locally:
 
 ---
 
+## Screenshots 📸
+
+Here’s a glimpse of how the application looks and works:
+
+![Percentge Match](Screenshot 2024-11-30 174238.png)
+
+![Improved Snippets](Screenshot 2024-11-30 174154.png)
+
+![Pro's and Con's][(Screenshot 2024-11-30 174143.png)
+
+---
+
 ## Example Prompts Used 📝
 
 ### Summarize Resume
 ```plaintext
-Hey, act like a professional HR of a multinational tech company. Evaluate and summarize the resume based on the job description. Provide:
-1) Pros
-2) Cons
-3) Summary
-4) Suggested improved sections of the resume
+Act as a professional HR specialist. Evaluate and summarize the resume based on the job description. Provide:
+1. Pros
+2. Cons
+3. Summary
+4. Suggested improved sections of the resume
 ```
 
 ### Skill Improvement
@@ -91,8 +105,8 @@ Analyze the resume and job description. List skills the user lacks and explain h
 ### Percentage Match
 ```plaintext
 Act as an ATS system. Evaluate the resume against the job description:
-1) Provide a percentage match.
-2) List missing keywords for better alignment.
+1. Provide a percentage match.
+2. List missing keywords for better alignment.
 ```
 
 ---
