@@ -78,11 +78,7 @@ Follow these steps to set up the project locally:
 
 Here’s a glimpse of how the application looks and works:
 
-![Percentge Match](Screenshot 2024-11-30 174238.png)
-
-![Improved Snippets](Screenshot 2024-11-30 174154.png)
-
-![Pro's and Con's][(Screenshot 2024-11-30 174143.png)
+! [Screenshots](https://imgur.com/a/WHcP11k)
 
 ---
 
